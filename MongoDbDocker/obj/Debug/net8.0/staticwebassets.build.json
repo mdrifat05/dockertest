@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZHWgkUM2+jsYagL01ZfDOzBnkpaE5f4qH2ckFQXlGhI=",
+  "Source": "MongoDbDocker",
+  "BasePath": "_content/MongoDbDocker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

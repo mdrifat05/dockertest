@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  mongodbdocker:
+    image: ${DOCKER_REGISTRY-}mongodbdocker
+    build:
+      context: .
+      dockerfile: MongoDbDocker/Dockerfile
+    depends_on:
+      - mongo
