@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MongoDbDocker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c8b379e326f02368e83c7f71bf9ab43cd2a08dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MongoDbDocker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MongoDbDocker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

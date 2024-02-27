@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tBKtQ+cDW9IohdfGghvrvFCWJcjAb7wSuRL5SNkBxs46u0XJhbwJ83qqeSG5AdEBokqaUKt3VDmZE3pJpr0fZQ==",
+  "dgSpecHash": "Ukqljb+cLyk9HuswuvWycPqd21KkssIAp+AY4unP/aX4HunfP/sIYIx/9Kw9OTC056qrYolUahkMKCzLgWa/7g==",
   "success": true,
-  "projectFilePath": "D:\\Microservice Project\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj",
+  "projectFilePath": "D:\\Microservice Project\\New folder\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mdrif\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mdrif\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

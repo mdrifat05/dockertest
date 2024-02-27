@@ -1,8 +1,8 @@
-name: dockercompose661271142979474007
+name: dockercompose5321709021174949347
 services:
   mongodbdocker:
     build:
-      context: D:\Microservice Project\MongoDbDocker
+      context: D:\Microservice Project\New folder\MongoDbDocker
       dockerfile: MongoDbDocker/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -33,4 +33,4 @@ services:
           create_host_path: true
 networks:
   default:
-    name: dockercompose661271142979474007_default
+    name: dockercompose5321709021174949347_default

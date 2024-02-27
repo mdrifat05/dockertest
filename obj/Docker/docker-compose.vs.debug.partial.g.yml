@@ -7,7 +7,7 @@ services:
     build:
       args:
         BUILD_CONFIGURATION: Debug
-      target: build-env
+      target: base
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "MongoDbDocker"
@@ -16,8 +16,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\Microservice Project\MongoDbDocker\MongoDbDocker:/app
-      - D:\Microservice Project\MongoDbDocker:/src
+      - D:\Microservice Project\New folder\MongoDbDocker\MongoDbDocker:/app
+      - D:\Microservice Project\New folder\MongoDbDocker:/src
       - C:\Users\mdrif\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\mdrif\.nuget\packages\:/.nuget/packages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

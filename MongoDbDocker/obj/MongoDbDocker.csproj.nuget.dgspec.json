@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Microservice Project\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj": {}
+    "D:\\Microservice Project\\New folder\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj": {}
   },
   "projects": {
-    "D:\\Microservice Project\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj": {
+    "D:\\Microservice Project\\New folder\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Microservice Project\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj",
+        "projectUniqueName": "D:\\Microservice Project\\New folder\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj",
         "projectName": "MongoDbDocker",
-        "projectPath": "D:\\Microservice Project\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj",
+        "projectPath": "D:\\Microservice Project\\New folder\\MongoDbDocker\\MongoDbDocker\\MongoDbDocker.csproj",
         "packagesPath": "C:\\Users\\mdrif\\.nuget\\packages\\",
-        "outputPath": "D:\\Microservice Project\\MongoDbDocker\\MongoDbDocker\\obj\\",
+        "outputPath": "D:\\Microservice Project\\New folder\\MongoDbDocker\\MongoDbDocker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mdrif\\AppData\\Roaming\\NuGet\\NuGet.Config",

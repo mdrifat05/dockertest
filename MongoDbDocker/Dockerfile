@@ -1,24 +1,25 @@
 #See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-# Stage 1: Build the application
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER app
 WORKDIR /app
+EXPOSE 5000
+EXPOSE 5001
 
-# Expose ports if needed
-EXPOSE 8080
-EXPOSE 8081
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["MongoDbDocker/MongoDbDocker.csproj", "MongoDbDocker/"]
+RUN dotnet restore "./MongoDbDocker/./MongoDbDocker.csproj"
+COPY . .
+WORKDIR "/src/MongoDbDocker"
+RUN dotnet build "./MongoDbDocker.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
-# Copy the CSPROJ file and restore any dependencies (via NUGET)
-COPY *.csproj ./
-RUN dotnet restore
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./MongoDbDocker.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
-# Copy the project files and build the release
-COPY . ./
-RUN dotnet publish -c Release -o out
-
-# Stage 2: Create the runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM base AS final
 WORKDIR /app
-COPY --from=build-env /app/out .
-
-# Set the entry point for the application
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "MongoDbDocker.dll"]

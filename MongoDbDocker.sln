@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDbDocker", "MongoDbDocker\MongoDbDocker.csproj", "{ECBBFC9E-8CE8-4AE2-BC8C-4906189A8360}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BFC3FF6B-A026-4E6A-B347-F429F7E9632E}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{86449D0E-F84D-4DF2-BEA1-CF2D8149F201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{ECBBFC9E-8CE8-4AE2-BC8C-4906189A8360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECBBFC9E-8CE8-4AE2-BC8C-4906189A8360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECBBFC9E-8CE8-4AE2-BC8C-4906189A8360}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFC3FF6B-A026-4E6A-B347-F429F7E9632E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFC3FF6B-A026-4E6A-B347-F429F7E9632E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFC3FF6B-A026-4E6A-B347-F429F7E9632E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFC3FF6B-A026-4E6A-B347-F429F7E9632E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86449D0E-F84D-4DF2-BEA1-CF2D8149F201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86449D0E-F84D-4DF2-BEA1-CF2D8149F201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86449D0E-F84D-4DF2-BEA1-CF2D8149F201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86449D0E-F84D-4DF2-BEA1-CF2D8149F201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
